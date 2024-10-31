@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/photography-project-client/static/css/main.33554e93.css",
-    "main.js": "/photography-project-client/static/js/main.4d33e939.js",
-    "static/media/hero-bg-2.webp": "/photography-project-client/static/media/hero-bg-2.1d003d5b211f0ffe19da.webp",
-    "static/media/mobile-hero-background.webp": "/photography-project-client/static/media/mobile-hero-background.a0fae2304cfdb17e1f11.webp",
-    "index.html": "/photography-project-client/index.html",
-    "main.33554e93.css.map": "/photography-project-client/static/css/main.33554e93.css.map",
-    "main.4d33e939.js.map": "/photography-project-client/static/js/main.4d33e939.js.map"
+    "main.css": "/static/css/main.d0da04c3.css",
+    "main.js": "/static/js/main.2d39fb8b.js",
+    "static/media/hero-bg_2.webp": "/static/media/hero-bg_2.1d003d5b211f0ffe19da.webp",
+    "static/media/mobile-hero-background.webp": "/static/media/mobile-hero-background.a0fae2304cfdb17e1f11.webp",
+    "index.html": "/index.html",
+    "main.d0da04c3.css.map": "/static/css/main.d0da04c3.css.map",
+    "main.2d39fb8b.js.map": "/static/js/main.2d39fb8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.33554e93.css",
-    "static/js/main.4d33e939.js"
+    "static/css/main.d0da04c3.css",
+    "static/js/main.2d39fb8b.js"
   ]
 }
