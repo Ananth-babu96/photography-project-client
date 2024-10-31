@@ -10,10 +10,12 @@ const Home = () => {
    const [data, setData] = useState([]);
    const dispatch = useDispatch();
    useEffect(() => {
-      axios.get("http://localhost:5000").then(async (res) => {
-         await setData(res.data);
-         await dispatch(setupData(res.data));
-      });
+      axios
+         .get("https://photography-project-7b9q.onrender.com")
+         .then(async (res) => {
+            await setData(res.data);
+            await dispatch(setupData(res.data));
+         });
       window.scrollTo(0, 0);
    }, []);
    const datas = useSelector((state) => state.data);

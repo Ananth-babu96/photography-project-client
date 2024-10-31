@@ -25,15 +25,8 @@ const Services = () => {
                {sampleImage1 && (
                   <img
                      className="main_img"
-                     src={`http://localhost:5000/images/${sampleImage1.image}`}
+                     src={`https://photography-project-7b9q.onrender.com/images/${sampleImage1.image}`}
                      alt="notfoud"
-                  />
-               )}
-               {sampleImage4 && (
-                  <img
-                     className="side_img"
-                     src={`http://localhost:5000/images/${sampleImage4.image}`}
-                     alt="image not found"
                   />
                )}
             </div>
@@ -69,15 +62,8 @@ const Services = () => {
                {sampleImage2 && (
                   <img
                      className="main_img"
-                     src={`http://localhost:5000/images/${sampleImage2.image}`}
+                     src={`https://photography-project-7b9q.onrender.com/images/${sampleImage2.image}`}
                      alt="notfoud"
-                  />
-               )}
-               {sampleImage5 && (
-                  <img
-                     className="side_img"
-                     src={`http://localhost:5000/images/${sampleImage5.image}`}
-                     alt="image not found"
                   />
                )}
             </div>
@@ -87,15 +73,8 @@ const Services = () => {
                {sampleImage3 && (
                   <img
                      className="main_img"
-                     src={`http://localhost:5000/images/${sampleImage3.image}`}
+                     src={`https://photography-project-7b9q.onrender.com/images/${sampleImage3.image}`}
                      alt="notfoud"
-                  />
-               )}
-               {sampleImage6 && (
-                  <img
-                     className="side_img"
-                     src={`http://localhost:5000/images/${sampleImage6.image}`}
-                     alt="image not found"
                   />
                )}
             </div>
