@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/photography-project-client/static/css/main.d1e3a378.css",
-    "main.js": "/photography-project-client/static/js/main.9dac9bd9.js",
+    "main.js": "/photography-project-client/static/js/main.c1fd2e86.js",
     "static/media/hero-bg_2.webp": "/photography-project-client/static/media/hero-bg_2.1d003d5b211f0ffe19da.webp",
     "static/media/mobile-hero-background.webp": "/photography-project-client/static/media/mobile-hero-background.a0fae2304cfdb17e1f11.webp",
     "index.html": "/photography-project-client/index.html",
     "main.d1e3a378.css.map": "/photography-project-client/static/css/main.d1e3a378.css.map",
-    "main.9dac9bd9.js.map": "/photography-project-client/static/js/main.9dac9bd9.js.map"
+    "main.c1fd2e86.js.map": "/photography-project-client/static/js/main.c1fd2e86.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e3a378.css",
-    "static/js/main.9dac9bd9.js"
+    "static/js/main.c1fd2e86.js"
   ]
 }
