@@ -10,7 +10,7 @@ const Services = () => {
    useEffect(() => {
       axios
          .get("https://photography-project-7b9q.onrender.com")
-         .then((res) => setContent(res.data));
+         .then((res) => setContent(res.data.dataList));
    }, []);
    const sampleImage1 = content.find((item) => item.id === 33);
    const sampleImage2 = content.find((item) => item.id === 46);

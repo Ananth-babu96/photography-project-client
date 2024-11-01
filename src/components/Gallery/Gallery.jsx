@@ -12,7 +12,7 @@ const Gallery = () => {
    useEffect(() => {
       axios
          .get("https://photography-project-7b9q.onrender.com")
-         .then((res) => setData(res.data));
+         .then((res) => setData(res.data.dataList));
       window.scrollTo(0, 0);
    }, []);
 
