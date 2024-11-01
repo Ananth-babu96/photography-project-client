@@ -21,37 +21,37 @@ const Gallery = () => {
       const image = data.find((item) => item.id === id);
       setImage(image);
    };
-   return (
-      <div className="contailer gallery">
-         <div className="gallery_title">
-            <h1>Gallery</h1>
-         </div>
-         <div
-            className={`gallery_fullscreen_image ${
-               openFullScreen ? "show" : ""
-            } `}
-         >
-            <p onClick={() => setOpenFullScreen(false)}>
-               <FaTimesCircle />
-            </p>
-            <img
-               src={`https://photography-project-7b9q.onrender.com/images/${image.image}`}
-               alt=""
-            />
-         </div>
-         <div className="gallery_section">
-            {data?.map((item, index) => {
-               return (
-                  <div onClick={() => OpenFullScreen(item.id)}>
-                     <img
-                        src={`https://photography-project-7b9q.onrender.com/images/${item.image}`}
-                     />
-                  </div>
-               );
-            })}
-         </div>
-      </div>
-   );
+   // return (
+   //    <div className="contailer gallery">
+   //       <div className="gallery_title">
+   //          <h1>Gallery</h1>
+   //       </div>
+   //       <div
+   //          className={`gallery_fullscreen_image ${
+   //             openFullScreen ? "show" : ""
+   //          } `}
+   //       >
+   //          <p onClick={() => setOpenFullScreen(false)}>
+   //             <FaTimesCircle />
+   //          </p>
+   //          <img
+   //             src={`https://photography-project-7b9q.onrender.com/images/${image.image}`}
+   //             alt=""
+   //          />
+   //       </div>
+   //       <div className="gallery_section">
+   //          {data?.map((item, index) => {
+   //             return (
+   //                <div onClick={() => OpenFullScreen(item.id)}>
+   //                   <img
+   //                      src={`https://photography-project-7b9q.onrender.com/images/${item.image}`}
+   //                   />
+   //                </div>
+   //             );
+   //          })}
+   //       </div>
+   //    </div>
+   // );
 };
 
 export default Gallery;
